@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Pelak';
+    src: url('assets/font/TTF/PelakNoEng-Regular.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+    font-family: Pelak;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 0;
+}
+
+/* end scrollbar */
